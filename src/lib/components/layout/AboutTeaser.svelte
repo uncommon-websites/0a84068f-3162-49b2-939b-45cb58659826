@@ -21,11 +21,10 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image:
-			"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
-	};
+	name: "Omar Al-Farsi",
+	role: "Founder & CEO",
+	image: "/generated/image-a-middle-eastern-tech-founder-dressed-in.webp"
+};
 </script>
 
 <section bind:this={sectionRef} {...props}>
@@ -33,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"We set out to build Cercli because every HR system we tried was built for someone else, not for us here in MENA. We believe companies in our region deserve a platform that simplifies the hardest parts of managing a team—so they can just focus on growth."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

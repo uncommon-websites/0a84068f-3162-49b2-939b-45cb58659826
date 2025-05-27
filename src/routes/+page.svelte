@@ -53,107 +53,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Cercli is the all-in-one HR and payroll platform for modern businesses, built to manage local and global teams effortlessly. Run payroll, automate compliance, and handle HR for every employee or contractor—especially in the Middle East and North Africa. All your workforce data, one trusted solution."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Karim Mansoor",
+			position: "Finance Director",
+			company: "Atlas Ventures",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Cercli cut our payroll processing time from days to just an hour each month. My team now spends less time on admin and more time on growth.",
+			image: "/generated/image-a-middle-aged-arab-man-sitting-at-a-wood.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Nour Salama",
+			position: "People Operations Lead",
+			company: "Medina Labs",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Switching to Cercli helped us avoid costly compliance mistakes as we expanded into new MENA countries. The peace of mind is priceless.",
+			image: "/generated/image-a-young-middle-eastern-woman-in-a-contem.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Youssef Ammar",
+			position: "Managing Partner",
+			company: "Cedar Holdings",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We've saved over $40,000 this year alone by consolidating our HR and payroll with Cercli. It pays for itself each month.",
+			image: "/generated/image-an-older-north-african-man-in-a-tailored.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need, all in one place"
+	subtitle="Local compliance, global coverage, and support that never sleeps."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Payroll for 150+ countries",
+			description: "Run compliant payroll locally and globally, with built-in MENA expertise and support for WPS, GOSI, DEWS, and more."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "All-in-one HR management",
+			description: "Centralize employees, contractors, and EORs in a single dashboard with streamlined onboarding and document control."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Multi-currency, multi-country",
+			description: "Pay teams and reimburse expenses in their currency, with automatic calculations for local taxes and benefits."
+		},
+		{
+			title: "White-glove onboarding",
+			description: "Migrate from spreadsheets or old systems in hours—not weeks—with expert support and instant data checks."
+		},
+		{
+			title: "Granular security & reporting",
+			description: "Control access by country, team, or role and get real-time reports, audit trails, and change history at a glance."
+		},
+		{
+			title: "24/7 expert support",
+			description: "Talk to payroll pros or engineers anytime via WhatsApp and Slack, with 92% of queries solved right away."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "MENA expansion, without the roadblocks",
+			description: "A rapidly growing business launches in the UAE, Saudi Arabia, and Egypt. Cercli brings payroll, onboarding, and compliance into one platform—so every new hire is properly set up, paid on schedule, and always audit-ready.",
+			image: "/generated/image-a-diverse-business-team-in-a-modern-conf.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/mena-expansion",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Managing a global, remote workforce",
+			description: "A multinational manages direct employees, EORs, and contractors across borders. Cercli automates multi-currency payments, streamlines compliance, and centralizes HR data with clarity and ease.",
+			image: "/generated/image-a-global-hr-manager-in-a-home-office-set.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/global-remote-workforce",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Replacing legacy HR with automation",
+			description: "A scaling startup outgrows spreadsheets and basic payroll tools. Cercli consolidates onboarding, payroll, and compliance into a single source of truth—saving time and reducing costly errors from day one.",
+			image: "/generated/image-a-startup-founder-in-a-chic-minimalist-o.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/hr-automation",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Get started with stress-free HR and payroll"
+  subtitle="See why leading MENA businesses choose Cercli"
+  description="Spend less time on admin and more time on your people. Migrate in hours, not weeks—with industry-first support and local expertise."
+  imageSrc="/generated/image-a-joyful-middle-eastern-hr-team-leader-i.webp"
+  callsToAction={[
+    { href: "/get-started", label: "Get started", variant: "primary" },
+    { href: "/demo", label: "Book a demo", variant: "secondary" }
+  ]}
+/>

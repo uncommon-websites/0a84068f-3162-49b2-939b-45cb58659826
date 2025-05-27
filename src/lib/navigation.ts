@@ -64,42 +64,29 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
+				label: "MENA expansion, without the roadblocks",
+				href: "/use-cases/mena-expansion",
+				image: "/generated/image-a-diverse-business-team-in-a-modern-conf.webp",
 				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
+					"Launch in UAE, Saudi, and Egypt with confidence. Cercli handles payroll, onboarding, and compliance—so you can focus on growth, not paperwork.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				label: "Managing a global, remote workforce",
+				href: "/use-cases/global-remote-workforce",
+				image: "/generated/image-a-global-hr-manager-in-a-home-office-set.webp",
 				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+					"Easily pay contractors, EORs, and direct employees in 150+ countries. Cercli automates compliance and centralizes HR for a distributed team.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				label: "Replacing legacy HR with automation",
+				href: "/use-cases/hr-automation",
+				image: "/generated/image-a-startup-founder-in-a-chic-minimalist-o.webp",
 				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				href: "/use-cases/education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
+					"Consolidate onboarding, payroll, and compliance in one place. Save time, reduce errors, and get expert support at every stage.",
 				showInNav: true,
 				showInFooter: true
 			}

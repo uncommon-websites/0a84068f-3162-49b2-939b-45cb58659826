@@ -35,139 +35,187 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "HR, payroll, and compliance—finally in sync",
+		subtitle = "All-in-one people management for MENA and beyond",
+		tierNames = ["Essentials", "Growth", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
-			}
-		],
+	{
+		name: "Number of users",
+		tiers: {
+			Essentials: "Up to 50",
+			Growth: "Up to 250",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Payroll coverage",
+		tiers: {
+			Essentials: "Single-country (MENA only)",
+			Growth: "Global (150+ countries)",
+			Enterprise: "Global + EOR"
+		}
+	},
+	{
+		name: "MENA compliance (WPS, DEWS, GOSI, etc.)",
+		tiers: {
+			Essentials: true,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Employee self-service portal",
+		tiers: {
+			Essentials: true,
+			Growth: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Compensation management",
+		tiers: {
+			Essentials: false,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Leave management",
+		tiers: {
+			Essentials: true,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Expense reimbursements",
+		tiers: {
+			Essentials: false,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Integrations (Slack, Google, ATS, etc.)",
+		tiers: {
+			Essentials: false,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Advanced custom reporting",
+		tiers: {
+			Essentials: false,
+			Growth: true,
+			Enterprise: "✔+"
+		}
+	},
+	{
+		name: "Custom roles and permissions",
+		tiers: {
+			Essentials: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "SSO / SAML",
+		tiers: {
+			Essentials: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Local data hosting (UAE/KSA)",
+		tiers: {
+			Essentials: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "White-glove onboarding & migration",
+		tiers: {
+			Essentials: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "VIP 24/7 support with SLA",
+		tiers: {
+			Essentials: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
-			}
-		]
+	{
+		name: "Essentials",
+		monthlyPrice: 8,
+		yearlyPrice: 6.4, // 20% savings
+		description: "For startups and smaller teams hiring in one country and looking to stay fully compliant from day one.",
+		features: [
+			"HRIS for up to 50 employees",
+			"Single-country MENA-compliant payroll (UAE, KSA, etc.)",
+			"Local labor law and tax compliance support (WPS, GOSI, DEWS, etc.)",
+			"Leave management with automatic calendar sync",
+			"Core onboarding workflows and digital docs",
+			"Contractor support and document storage",
+			"Basic compliance alerts and audit trails",
+			"Email and in-app chat support"
+		],
+		cta: {
+			label: "Start free",
+			href: "/signup?plan=essentials"
+		}
+	},
+	{
+		name: "Growth",
+		monthlyPrice: 16,
+		yearlyPrice: 12.8, // 20% savings
+		description: "For scaling companies managing multiple entities or remote teams across MENA and beyond.",
+		features: [
+			"Support for up to 250 employees, contractors, and EORs",
+			"Multi-country payroll in over 150 countries",
+			"MENA-compliant payroll, benefits, and filing automation",
+			"Advanced onboarding, offboarding, and org mapping",
+			"Compensation management with custom adjustments and country breakdowns",
+			"Expense reimbursements with multi-currency support",
+			"Slack, WhatsApp, ATS, Google, and Microsoft integrations",
+			"Advanced reporting and workforce analytics",
+			"Dedicated support with faster SLAs"
+		],
+		cta: {
+			label: "Start free",
+			href: "/signup?plan=growth"
+		},
+		highlight: true
+	},
+	{
+		name: "Enterprise",
+		monthlyPrice: null,
+		yearlyPrice: null,
+		description: "For larger and regulated organizations with complex payroll, compliance, and integration needs.",
+		features: [
+			"Unlimited employees, contractors, and business entities",
+			"Entity-free hiring and payroll via Cercli’s EOR in any MENA country",
+			"Custom roles and granular permissions",
+			"SSO via SAML, audit logs, and access history tracking",
+			"Custom payroll rules, workflows, and reporting",
+			"Private data hosting options in UAE or KSA",
+			"Dedicated onboarding and white-glove migration",
+			"VIP 24/7 support with 99.9% uptime SLA"
+		],
+		cta: {
+			label: "Contact sales",
+			href: "/contact"
+		}
+	}
+]
 	}: {
 		title?: string;
 		subtitle?: string;

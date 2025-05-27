@@ -121,34 +121,34 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Layla Al-Farsi",
+    position: "HR Associate",
+    company: "People Operations",
+    quote:
+      "I felt welcomed from my very first day. Our team is truly diverse and everyone’s ideas matter. The support and sense of belonging here make every day enjoyable.",
+    image:
+      "/generated/image-an-arab-woman-in-a-modern-office-setting.webp"
+  },
+  {
+    name: "Aditya Patel",
+    position: "Software Engineer",
+    company: "Engineering",
+    quote:
+      "There’s always a challenge waiting, but so is the chance to learn. At Cercli, I’ve grown my skills faster than I thought possible—and I get to ship real impact with a great team.",
+    image:
+      "/generated/image-a-south-asian-man-a-software-engineer-im.webp"
+  },
+  {
+    name: "Imani Williams",
+    position: "Senior Product Manager",
+    company: "Product",
+    quote:
+      "Mentorship here is more than just a policy—it’s something I live every week. Cercli’s leadership encourages growth and makes space for everyone’s voice. The culture is what keeps me here.",
+    image:
+      "/generated/image-a-black-woman-in-a-senior-product-manage.webp"
+  }
+];
 
 	const processSteps = [
 		{
@@ -191,19 +191,21 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Shape the future of global work"
+	subtitle="Join a smart, inclusive team transforming HR across MENA and beyond"
+	imageSrc="/generated/image-a-diverse-happy-team-in-a-modern-office-.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Move fast, build region-defining products, and work with real impact" />
 
-	<div class="mt-16 grid gap-4 md:grid-cols-3">
-		{#each benefits as benefit}
-			<Card {...benefit} />
-		{/each}
-	</div>
+<div class="mt-10 grid gap-8 lg:grid-cols-2 xl:grid-cols-4">
+  <Card title="Regional impact, global growth" description="Help build the leading HR platform powering business across the Middle East and North Africa—and manage workforces worldwide." icon={IconGlobe} />
+  <Card title="Make meaningful decisions" description="Own projects end-to-end, collaborate directly with founders and industry leaders, and shape how modern teams operate across borders." icon={IconBriefcase} />
+  <Card title="Grow with us" description="Accelerate your career in a startup backed by YC, Afore, and Cotu, with mentorship, equity, and clear paths to grow as we scale." icon={IconUsers} />
+  <Card title="Real flexibility & support" description="Work from anywhere, enjoy competitive pay, equity, healthcare, and a dedicated learning budget—all with support from a responsive, no-ego team." icon={IconHeart} />
+</div>
 </section>
 
 <!-- Culture Section -->
