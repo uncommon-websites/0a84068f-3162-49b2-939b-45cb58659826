@@ -7,40 +7,14 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 </script>
 
-<CustomerCardHero
+<Hero
   centered={true}
   title="HR and payroll, without the headache"
   subtitle="One platform to manage and pay your team—fully compliant, locally trusted, and built for MENA and beyond."
-  customers={[
-    {
-      name: "Samer Bejjani",
-      position: "Founder and CEO, Growth Levers",
-      imageSrc: "/generated/image-a-professional-middle-eastern-man-in-a-m.webp"
-    },
-    {
-      name: "Said El Imadi",
-      position: "Human Resources Manager, Supy",
-      imageSrc: "/generated/image-a-professional-middle-eastern-man-dresse.webp"
-    },
-    {
-      name: "Mitul Ganatra",
-      position: "CFO, Huspy",
-      imageSrc: "/generated/image-a-professional-south-asian-man-wearing-g.webp"
-    },
-    {
-      name: "Laila Hassan",
-      position: "People Operations Lead, Tech Startup",
-      imageSrc: "/generated/image-a-professional-middle-eastern-woman-in-b.webp"
-    },
-    {
-      name: "Ranya Khaled",
-      position: "Head of HR, Cairo Consulting Group",
-      imageSrc: "/generated/image-a-professional-north-african-woman-smili.webp"
-    }
-  ]}
+  imageSrc="/generated/image-a-diverse-group-of-professionals-engaged.webp"
 />
 <LogoScroller
 	label="Trusted by industry leaders"

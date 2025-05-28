@@ -63,16 +63,31 @@
 	}: Props = $props();
 </script>
 
-<div class="bg-background" {...rest}>
+<div 
+	class="relative min-h-[80vh] bg-background overflow-hidden" 
+	{...rest}
+>
+	{#if imageSrc}
+		<div class="absolute inset-0">
+			<img
+				src={imageSrc}
+				alt="Hero background"
+				class="size-full object-cover"
+				onerror={handleImageError}
+			/>
+			<div class="absolute inset-0 bg-background/60"></div>
+		</div>
+	{/if}
+	
 	<header
 		class={[
-			"section-px container mx-auto grid items-end gap-16 gap-y-9 py-12 pt-24 text-balance",
+			"relative z-10 section-px container mx-auto grid items-center gap-16 gap-y-9 min-h-[80vh] text-balance",
 			centered ? "place-items-center text-center" : " xl:grid-cols-[1fr_auto]"
 		]}
 		data-enter-container
 	>
 		<div class="grid gap-6" class:max-w-prose={centered}>
-			<h1 class="text-display w-full" data-enter>
+			<h1 class="text-display w-full text-foreground" data-enter>
 				<span class="block"><AnimateText text={title} /></span>
 				{#if !centered}
 					<span class="text-emphasis-dim block"><AnimateText text={subtitle} /></span>
@@ -83,7 +98,7 @@
 				<p
 					data-enter
 					class={[
-						"text-muted-foreground text-headline mx-auto block max-w-[45ch] transition duration-500 ease-out"
+						"text-foreground/80 text-headline mx-auto block max-w-[45ch] transition duration-500 ease-out"
 						// isTitleComplete ? "opacity-100" : "translate-y-2 opacity-0 blur-sm"
 					]}
 				>
@@ -111,15 +126,4 @@
 			</div>
 		{/if}
 	</header>
-
-	{#if imageSrc}
-		<div class="col-span-full aspect-video" data-enter>
-			<img
-				src={imageSrc}
-				alt="Customer"
-				class="size-full object-cover"
-				onerror={handleImageError}
-			/>
-		</div>
-	{/if}
 </div>
